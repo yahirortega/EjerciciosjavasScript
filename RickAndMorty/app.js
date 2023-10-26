@@ -121,6 +121,8 @@ function getCard(e){
     }
 }
 
+getCharacter();
+
 document.querySelector('.pagination')
         .addEventListener('click', getButton);     
 character.addEventListener('click', getCard)
